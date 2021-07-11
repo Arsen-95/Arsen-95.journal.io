@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__body">
+                <div class="header__body-left">
+                    <div class="header__hamburger"></div>
+                    <div class="header__logo">
+                        <a class="header__logo-link" href="#"><img class="header__logo-img" src="img/logo.png" alt="Logo"></a>
+                        <a class="header__logo-name" href="#">MedHub <span class="header__logo-type">Desk</span></a>
+                    </div>
+                </div>   
+                <div class="header__search">
+                    <form action="" class="header__search-form">
+                        <button type="submit" class="header__search-btn"><a href="#"><img class="header__search-img" src="img/search.png" alt="search"></button></a>
+                        <input class="header__search-input" type="text" placeholder="Введите имя пациента или врача">
+                    </form>
+                </div>        
+                <div class="header__body-right">
+                    <a class="header__notification" href="#"><img src="img/bell.png" alt="notification"></a>
+                    <a class="header__account" href="#"><img class="header__account-img" src="img/profile-photo.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="section">
+        <div class="container">
+            <div class="section__inner">
+                <div class="section__nav">
+                    <a class="section__nav-link" href="#"><img class="section__nav-img" src="img/calendar.svg" alt=""></a>
+                    <a class="section__nav-link" href="#"><img class="section__nav-img" src="img/stat.svg" alt=""></a>
+                    <a class="section__nav-link" href="#"><img class="section__nav-img" src="img/calendar.svg" alt=""></a>
+                    <a class="section__nav-link" href="#"><img class="section__nav-img" src="img/stat.svg" alt=""></a>
+                    <a class="section__nav-link" href="#"><img class="section__nav-img" src="img/calendar.svg" alt=""></a>
+                    <a class="section__nav-link" href="#"><img class="section__nav-img" src="img/stat.svg" alt=""></a>   
+                    <a class="section__nav-link" href="#"><img class="section__nav-img" src="img/calendar.svg" alt=""></a>
+                    <a class="section__nav-link" href="#"><img class="section__nav-img" src="img/stat.svg" alt=""></a>                    
+                </div>
+                <div class="section__content">
+                    <div class="section__content-title">
+                        <div class="section__name">Журнал посещений</div>
+                        <div class="section__data">11 сентября, 2020 Пятница</div>
+                    </div>
+                    <div class="section__filter">
+                        <div class="section__since">
+                            <div class="section__since-start content-name">Начало периода</div>
+                            <form class="section__since-form" action="#">
+                                <input class="section__since-input" type="text" placeholder="с">
+                            </form>
+                        </div>
+                        <div class="section__to">
+                            <div class="section__to-end content-name">Конец периода</div>
+                            <form class="section__to-form" action="#">
+                                <input class="section__to-input" type="text" placeholder="до">
+                            </form>
+                        </div>    
+                        <div class="section__patient">
+                            <div class="section__patient-title content-name">Пациент</div>
+                            <form class="section__patient-form" action="#">
+                                <input class="section__patient-selecter" name="doctor" id="" placeholder="ФИО пациента"></input>
+                            </form>
+                        </div>
+                        <div class="section__doctor">
+                            <div class="section__doctor-title content-name">Врач</div>
+                            <form class="section__doctor-form" action="#">
+                                <input class="section__doctor-selecter" name="doctor" placeholder="ФИО врача"></input>
+                            </form>
+                        </div>
+                        <div class="section__profession">
+                            <div class="section__profession-title content-name">Специальность</div>
+                            <input class="section__profession-input" name="" id="" placeholder="Введите специальность"></input>
+                        </div>
+                        <div class="section__button">
+                            <button class="section__btn-submit" type="submit">Применить</button>
+                            <button class="section__btn-reset">Сбросить</button>
+                        </div>                
+                    </div>
+                    <table class="section__journal">
+                        <thead bgcolor="#F7F7F7">
+                            <tr>
+                                <th class="section__journal-title">Дата</th>
+                                <th class="section__journal-title">Пациенты (ФИО)</th>
+                                <th class="section__journal-title">Дата рождения</th>
+                                <th class="section__journal-title">Паспорт</th>
+                                <th class="section__journal-title">Город</th>
+                                <th class="section__journal-title adress">Адрес</th>
+                                <th class="section__journal-title">Врач</th>
+                                <th class="section__journal-title">Диагноз</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="section__journal-content">20.03.2020</td>
+                                <td class="section__journal-name">Иванов Алексей Федорович</td>
+                                <td class="section__journal-content">20.03.2020</td>
+                                <td class="section__journal-content">**********</td>
+                                <td class="section__journal-content">Ташкент</td>
+                                <td class="section__journal-content adress">Чиланзарский район, квартал 10, дом 23, кв.14</td>
+                                <td class="section__journal-name">Петров Виссарион Эдуардович <br> <span class="section__journal-name-prof">Кардиолог</span></td>
+                                <td class="section__journal-content">Нервозность</td>
+                            </tr>
+                            <tr>
+                                <td class="section__journal-content">20.03.2020</td>
+                                <td class="section__journal-name">Иванов Алексей Федорович</td>
+                                <td class="section__journal-content">20.03.2020</td>
+                                <td class="section__journal-content">**********</td>
+                                <td class="section__journal-content">Ташкент</td>
+                                <td class="section__journal-content">Чиланзарский район, квартал 10, дом 23, кв.14</td>
+                                <td class="section__journal-name">Петров Виссарион Эдуардович <br> <span class="section__journal-name-prof">Кардиолог</span></td>
+                                <td class="section__journal-content">Нервозность</td>
+                            </tr>
+                            <tr>
+                                <td class="section__journal-content">20.03.2020</td>
+                                <td class="section__journal-name">Иванов Алексей Федорович</td>
+                                <td class="section__journal-content">20.03.2020</td>
+                                <td class="section__journal-content">**********</td>
+                                <td class="section__journal-content">Ташкент</td>
+                                <td class="section__journal-content">Чиланзарский район, квартал 10, дом 23, кв.14</td>
+                                <td class="section__journal-name">Петров Виссарион Эдуардович <br> <span class="section__journal-name-prof">Кардиолог</span></td>
+                                <td class="section__journal-content">Нервозность</td>
+                            </tr>
+                            <tr>
+                                <td class="section__journal-content">20.03.2020</td>
+                                <td class="section__journal-name">Иванов Алексей Федорович</td>
+                                <td class="section__journal-content">20.03.2020</td>
+                                <td class="section__journal-content">**********</td>
+                                <td class="section__journal-content">Ташкент</td>
+                                <td class="section__journal-content">Чиланзарский район, квартал 10, дом 23, кв.14</td>
+                                <td class="section__journal-name">Петров Виссарион Эдуардович <br> <span class="section__journal-name-prof">Кардиолог</span></td>
+                                <td class="section__journal-content">Нервозность</td>
+                            </tr>
+                            <tr>
+                                <td class="section__journal-content">20.03.2020</td>
+                                <td class="section__journal-name">Иванов Алексей Федорович</td>
+                                <td class="section__journal-content">20.03.2020</td>
+                                <td class="section__journal-content">**********</td>
+                                <td class="section__journal-content">Ташкент</td>
+                                <td class="section__journal-content">Чиланзарский район, квартал 10, дом 23, кв.14</td>
+                                <td class="section__journal-name">Петров Виссарион Эдуардович <br> <span>Кардиолог</span></td>
+                                <td class="section__journal-content">Нервозность</td>
+                            </tr>
+                            <tr>
+                                <td class="section__journal-content">20.03.2020</td>
+                                <td class="section__journal-name">Иванов Алексей Федорович</td>
+                                <td class="section__journal-content">20.03.2020</td>
+                                <td class="section__journal-content">**********</td>
+                                <td class="section__journal-content">Ташкент</td>
+                                <td class="section__journal-content">Чиланзарский район, квартал 10, дом 23, кв.14</td>
+                                <td class="section__journal-name">Петров Виссарион Эдуардович <br> <span class="section__journal-name-prof">Кардиолог</span></td>
+                                <td class="section__journal-content">Нервозность</td>
+                            </tr>
+                            <tr>
+                                <td class="section__journal-content">20.03.2020</td>
+                                <td class="section__journal-name">Иванов Алексей Федорович</td>
+                                <td class="section__journal-content">20.03.2020</td>
+                                <td class="section__journal-content">**********</td>
+                                <td class="section__journal-content">Ташкент</td>
+                                <td class="section__journal-content">Чиланзарский район, квартал 10, дом 23, кв.14</td>
+                                <td class="section__journal-name">Петров Виссарион Эдуардович <br> <span class="section__journal-name-prof">Кардиолог</span></td>
+                                <td class="section__journal-content">Нервозность</td>
+                            </tr>
+                            <tr>
+                                <td class="section__journal-content">20.03.2020</td>
+                                <td class="section__journal-name">Иванов Алексей Федорович</td>
+                                <td class="section__journal-content">20.03.2020</td>
+                                <td class="section__journal-content">**********</td>
+                                <td class="section__journal-content">Ташкент</td>
+                                <td class="section__journal-content">Чиланзарский район, квартал 10, дом 23, кв.14</td>
+                                <td class="section__journal-name">Петров Виссарион Эдуардович <br> <span class="section__journal-name-prof">Кардиолог</span></td>
+                                <td class="section__journal-content">Нервозность</td>
+                            </tr>
+                           
+                        </tbody>
+                    </table> 
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="up-aerow">
+        <a href=""><img class="up-aerow__img" src="img/arrow.svg" alt=""></a>
+    </div>
+
+</body>
+</html>
