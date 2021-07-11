@@ -413,12 +413,12 @@ td:first-child {
   height: 38px;
   width: 38px;
   text-align: right;
-  border: 10px solid blue;
+  border: 10px solid #1372FF;
   border-radius: 1000px;
   position: fixed;
   right: 48px;
   bottom: 48px;
-  background-color: blue;
+  background-color: #1372FF;
   text-align: center;
 }
 
